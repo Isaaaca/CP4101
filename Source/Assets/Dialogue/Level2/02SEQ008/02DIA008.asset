@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc713fd48c9bbdd41b4c72f20e126069, type: 3}
+  m_Name: 02DIA008
+  m_EditorClassIdentifier: 
+  dialogueLines:
+  - speaker: Lycan
+    lookAt: 02NPC007
+    text: Hey I know we came out here to relax, but aren't you drinking a bit too
+      much beer? Aren't you afraid of losing control and turning?
+    options: []
+  - speaker: Lycan
+    lookAt: 02NPC006
+    text: Don't worry man, I just killed a luna bunny, so my blood lust is wayyy
+      low now...
+    options: []
+  - speaker: Lycan
+    lookAt: 02NPC007
+    text: Besides, what's the worse that can happen? I'll probably just kill more
+      bunnies. No one's gonna miss them.
+    options: []
+  nextDialogue: {fileID: 0}

@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc713fd48c9bbdd41b4c72f20e126069, type: 3}
+  m_Name: 03DIA012_1
+  m_EditorClassIdentifier: 
+  dialogueLines:
+  - speaker: Helen
+    lookAt: 03NPC013
+    text: It's time to make a call, sheriff.
+    options: []
+  - speaker: Helen
+    lookAt: 03NPC013
+    text: What punishment should be given for this Lycan?
+    options:
+    - text: No punishment.
+      nextDialogue: {fileID: 11400000, guid: 54286149aeea53b40802a946ce76e3a7, type: 2}
+    - text: Fine.
+      nextDialogue: {fileID: 11400000, guid: 54286149aeea53b40802a946ce76e3a7, type: 2}
+    - text: Jail
+      nextDialogue: {fileID: 11400000, guid: 54286149aeea53b40802a946ce76e3a7, type: 2}
+    - text: Death.
+      nextDialogue: {fileID: 11400000, guid: 0dc8b01c3f53d964aa1d419106117362, type: 2}
+  nextDialogue: {fileID: 0}

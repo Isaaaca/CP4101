@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc713fd48c9bbdd41b4c72f20e126069, type: 3}
+  m_Name: 00DIA001_2A
+  m_EditorClassIdentifier: 
+  dialogueLines:
+  - speaker: ???
+    lookAt: 00NPC001
+    text: Your job is to protect the people, both lycans and lunarians.
+    options: []
+  - speaker: ???
+    lookAt: 00NPC001
+    text: Anything that glows blue are of lunarian descent - they come from the moon.
+      Being exposed to their aura will increase a lycan's bloodlust.
+    options: []
+  - speaker: ???
+    lookAt: 00NPC001
+    text: 'The rest of us are lycans. When our bloodlust gets out of control, we
+      turn into werewolves and become extremely violent. '
+    options: []
+  - speaker: ???
+    lookAt: 00NPC001
+    text: Bloodlust goes away slowly with time, but the faster way to reduce bloodlust
+      is to draw blood from a creature.
+    options: []
+  nextDialogue: {fileID: 11400000, guid: 2db1dcf4b0d571f4fb19ade48de3e3af, type: 2}

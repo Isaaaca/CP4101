@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc713fd48c9bbdd41b4c72f20e126069, type: 3}
+  m_Name: 02DIA015
+  m_EditorClassIdentifier: 
+  dialogueLines:
+  - speaker: Lycan
+    lookAt: 02NPC011
+    text: Come on! How can you sleep till so late! We've already missed the sunrise!
+    options: []
+  - speaker: Lunarian
+    lookAt: 02NPC010
+    text: Well I didn't have anyone to wake me up. So stop complaining. The sheriff
+      woke up even later than I did.
+    options: []
+  - speaker: Sheriff
+    lookAt: Player
+    text: Woah. Leave me out of this.
+    options: []
+  - speaker: Lycan
+    lookAt: 02NPC011
+    text: 'Well, I wasn''t waiting for the Sheriff.
+
+'
+    options: []
+  - speaker: Lycan
+    lookAt: 02NPC011
+    text: I was waiting for you.
+    options: []
+  - speaker: Lunarian
+    lookAt: 02NPC010
+    text: ...
+    options: []
+  nextDialogue: {fileID: 0}

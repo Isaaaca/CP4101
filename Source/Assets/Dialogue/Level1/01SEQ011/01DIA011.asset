@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc713fd48c9bbdd41b4c72f20e126069, type: 3}
+  m_Name: 01DIA011
+  m_EditorClassIdentifier:
+  dialogueLines:
+  - speaker: Sheriff
+    lookAt: Player
+    text: What's that strange thing on the lycan's head?
+    options: []
+  - speaker: Hal
+    lookAt: 01NPC008
+    text: Ah that's the mark. It lets everyone know that the lycan has turned into
+      a werewolf and assaulted someone before.
+    options: []
+  - speaker: Sheriff
+    lookAt: Player
+    text: I presume it's for the protection of the public. Has it been effective?
+    options: []
+  - speaker: Hal
+    lookAt: 01NPC008
+    text: To be honest, I'm not sure.
+    options: []
+  - speaker: Hal
+    lookAt: 01NPC008
+    text: People are afraid of the mark, that's for sure. But the offending lycan
+      always has a hard time reintegrating into society. Some say the mark even increases
+      the chances of reoffending.
+    options: []
+  - speaker: Hal
+    lookAt: 01NPC008
+    text: Good thing there's no need to decide for the case at hand I guess. Once
+      a lycan has been marked it cannot be removed.
+    options: []
+  - speaker: Sheriff
+    lookAt: Player
+    text: Hmm... That means for future cases I'll have to make the call, doesn't
+      it?
+    options: []
+  - speaker: Hal
+    lookAt: 01NPC008
+    text: Yes. All the best with that. Even for this case you'll have to decide some
+      things though. I'll explain it to you later.
+    options: []
+  nextDialogue: {fileID: 0}

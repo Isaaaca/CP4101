@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc713fd48c9bbdd41b4c72f20e126069, type: 3}
+  m_Name: 01DIA003
+  m_EditorClassIdentifier: 
+  dialogueLines:
+  - speaker: Gatekeeper
+    lookAt: 01NPC002
+    text: "Are you headed to the forest sheriff?\r\n\r"
+    options: []
+  - speaker: Gatekeeper
+    lookAt: 01NPC002
+    text: The monster population has gone up recently, so it would be great if you
+      could take out some of them along the way!
+    options: []
+  - speaker: Gatekeeper
+    lookAt: 01NPC002
+    text: I guess you won't get paid since keeping monster population down is the
+      hunters' job... but killing monsters helps keep your blood lust low too!
+    options: []
+  - speaker: Gatekeeper
+    lookAt: 01NPC002
+    text: Not that a sheriff like you would have any problems with bloodlust I guess...
+      Anyway be careful!
+    options: []
+  nextDialogue: {fileID: 0}

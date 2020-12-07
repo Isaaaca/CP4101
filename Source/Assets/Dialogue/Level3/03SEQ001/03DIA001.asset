@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc713fd48c9bbdd41b4c72f20e126069, type: 3}
+  m_Name: 03DIA001
+  m_EditorClassIdentifier:
+  dialogueLines:
+  - speaker: Hal
+    lookAt: 03NPC001
+    text: Urgent news sheriff.
+    options: []
+  - speaker: Hal
+    lookAt: 03NPC001
+    text: A moon stone cave was just discovered.
+    options: []
+  - speaker: Sheriff
+    lookAt: Player
+    text: How is that urgent?
+    options: []
+  - speaker: Hal
+    lookAt: 03NPC001
+    text: Well, some feel that the moon rock is too dangerous and want to seal the
+      cave up. But others want to protect the cave, saying that it is part of the
+      lunarian identity. People are protesting at the cave entrance and tensions
+      are high.
+    options: []
+  - speaker: Sheriff
+    lookAt: Player
+    text: So I need to be there to maintain peace then?
+    options: []
+  - speaker: Hal
+    lookAt: 03NPC001
+    text: Yes. Please head over as soon as possible.
+    options: []
+  - speaker: Sheriff
+    lookAt: Player
+    text: Where's the cave entrance?
+    options: []
+  - speaker: Hal
+    lookAt: 03OBJ001
+    text: You'll have to get into the cave a hole we dug. It's on the left.
+    options: []
+  - speaker: Sheriff
+    lookAt: Player
+    text: Must I really go through the cave?
+    options: []
+  - speaker: Hal
+    lookAt: 03NPC001
+    text: There's little choice. The road above ground would take days.
+    options: []
+  - speaker: Hal
+    lookAt: 03NPC001
+    text: Be careful in there sheriff.
+    options: []
+  nextDialogue: {fileID: 0}

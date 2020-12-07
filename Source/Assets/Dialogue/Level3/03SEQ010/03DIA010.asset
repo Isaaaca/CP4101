@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc713fd48c9bbdd41b4c72f20e126069, type: 3}
+  m_Name: 03DIA010
+  m_EditorClassIdentifier:
+  dialogueLines:
+  - speaker: Helen
+    lookAt: 03NPC013
+    text: Hal sent me through the cave in case you needed any help sheriff.
+    options: []
+  - speaker: Helen
+    lookAt: 03NPC013
+    text: And by the looks of it, it seems you do. I'll act as Hal's representative
+      in getting your decision.
+    options: []
+  - speaker: Sheriff
+    lookAt: Player
+    text: I hope you won't be handling the lycan.
+    options: []
+  - speaker: Helen
+    lookAt: 03NPC013
+    text: Don't worry, I'm only handling the administrative details. I'll check in
+      on you later.
+    options: []
+  nextDialogue: {fileID: 0}

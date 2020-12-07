@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc713fd48c9bbdd41b4c72f20e126069, type: 3}
+  m_Name: 03DIA004B
+  m_EditorClassIdentifier: 
+  dialogueLines:
+  - speaker: Sheriff
+    lookAt: Player
+    text: Most Lycans can and do control themselves. It is our duty to learn and
+      master controlling our bloodlust. Lunarians shouldn't be expected to compromise
+      on their identity for this.
+    options: []
+  - speaker: Lycan
+    lookAt: 03NPC005
+    text: I couldn't agree more. Thanks for backing me up sheriff.
+    options: []
+  nextDialogue: {fileID: 0}

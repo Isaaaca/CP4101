@@ -1,0 +1,13 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: KneelingLycanAnimationControllerOverride 1
+  m_Controller: {fileID: 9100000, guid: 25ec411289c5fe04cb46d54f5bacfdf2, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 6013fa16933bfd64a991fe218486af84, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 53c4d7d313ae2214d85f29a827bf3dd5, type: 2}

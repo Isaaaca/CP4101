@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc713fd48c9bbdd41b4c72f20e126069, type: 3}
+  m_Name: 02DIA007
+  m_EditorClassIdentifier: 
+  dialogueLines:
+  - speaker: Lunarian
+    lookAt: 02NPC005
+    text: 'Is that a moon stone? It looks so pretty.
+
+'
+    options: []
+  - speaker: Lunarian
+    lookAt: 02NPC004
+    text: Yea, my mom gave it to me. You should wear one too, it's part of our culture
+      you know.
+    options: []
+  - speaker: Lunarian
+    lookAt: 02NPC005
+    text: Aren't you afraid that some lycan might attack you? Moonstones emit such
+      a strong aura.
+    options: []
+  - speaker: Lunarian
+    lookAt: 02NPC004
+    text: Why would I be? Moon stones have nothing to do with the lycan assaults.
+      The lunarian in the last case wasn't wearing any moon stone at all!
+    options: []
+  - speaker: Lunarian
+    lookAt: 02NPC005
+    text: Well still, be careful with that...
+    options: []
+  nextDialogue: {fileID: 0}

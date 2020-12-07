@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc713fd48c9bbdd41b4c72f20e126069, type: 3}
+  m_Name: 02DIA001_2
+  m_EditorClassIdentifier: 
+  dialogueLines:
+  - speaker: Sheriff
+    lookAt: Player
+    text: 'Say Hal, I was '
+    options: []
+  - speaker: Hal
+    lookAt: 02NPC001
+    text: The observation tower on the mountain was just completed. It's becoming
+      a bit of a tourist spot. There'll be quite a few people up there, so we hope
+      you'll head up there for a while just to maintain order and provide security.
+      Hopefully you'll enjoy the view up there.
+    options: []
+  nextDialogue: {fileID: 0}

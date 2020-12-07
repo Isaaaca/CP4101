@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc713fd48c9bbdd41b4c72f20e126069, type: 3}
+  m_Name: 01DIA013_2
+  m_EditorClassIdentifier:
+  dialogueLines:
+  - speaker: Hal
+    lookAt: 01NPC008
+    text: In each case you'll have to decide on 2 things regarding the offending
+      lycan.
+    options: []
+  - speaker: Hal
+    lookAt: 01NPC008
+    text: Firstly, their punishment. You can choose to release them, jail them, fine
+      them, or even sentence them to death. I hope you will choose wisely.
+    options: []
+  - speaker: Hal
+    lookAt: 01NPC008
+    text: Secondly, any additional measures to be made. You could mark them, so that
+      the public will know they are offenders.
+    options: []
+  - speaker: Hal
+    lookAt: 01NPC008
+    text: You could place a tracking spell on them, so that the authorities always
+      know where they are.
+    options: []
+  - speaker: Hal
+    lookAt: 01NPC008
+    text: You could send the offender for counselling to guide them in managing their
+      bloodlust.
+    options: []
+  - speaker: Hal
+    lookAt: 01NPC008
+    text: Of course, you could choose to do nothing.
+    options: []
+  - speaker: Hal
+    lookAt: 01NPC008
+    text: For both punishment and additional measures, you can only make one choice,
+      so choose carefully.
+    options: []
+  - speaker: Hal
+    lookAt: 01NPC008
+    text: Do you understand? Should I repeat myself?
+    options:
+    - text: I do not understand.
+      nextDialogue: {fileID: 11400000}
+    - text: I understand.
+      nextDialogue: {fileID: 11400000, guid: 3a442f2a185c10343a555cf1a1dde3c6, type: 2}
+  nextDialogue: {fileID: 0}

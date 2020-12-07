@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc713fd48c9bbdd41b4c72f20e126069, type: 3}
+  m_Name: 02DIA009
+  m_EditorClassIdentifier: 
+  dialogueLines:
+  - speaker: Sheriff
+    lookAt: Player
+    text: Camping alone?
+    options: []
+  - speaker: Lycan
+    lookAt: 02NPC009
+    text: Well, I came up the mountain with a lunarian friend, but I think it is
+      safer for us to keep apart at night.
+    options: []
+  - speaker: Lycan
+    lookAt: 02NPC009
+    text: Do you think I'm being too cautious?
+    options:
+    - text: Yes - Trust yourself more.
+      nextDialogue: {fileID: 11400000, guid: 10aac381e76cd0a4ba0487c9e29bdd9b, type: 2}
+    - text: No - Better safe than sorry.
+      nextDialogue: {fileID: 11400000, guid: 9a38ee0ed34cf3849a40ab58b2a0a938, type: 2}
+  nextDialogue: {fileID: 0}

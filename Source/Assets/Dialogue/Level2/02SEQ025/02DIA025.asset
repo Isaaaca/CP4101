@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc713fd48c9bbdd41b4c72f20e126069, type: 3}
+  m_Name: 02DIA025
+  m_EditorClassIdentifier: 
+  dialogueLines:
+  - speaker: Lycan
+    lookAt: 02NPC020
+    text: Pretty nice view up here, isn't it?
+    options: []
+  - speaker: Lunarian
+    lookAt: 02NPC019
+    text: Yea... It would have been perfect if not for what just happened...
+    options: []
+  - speaker: Lunarian
+    lookAt: 02NPC019
+    text: I could have been the one that was attacked.
+    options: []
+  - speaker: Lycan
+    lookAt: 02NPC020
+    text: And it could have been me that turned into a werewolf.
+    options: []
+  - speaker: Lunarian
+    lookAt: 02NPC019
+    text: No way! Don't even joke about that!
+    options: []
+  - speaker: Lycan
+    lookAt: 02NPC020
+    text: Alright, I'm sorry.
+    options: []
+  - speaker: Lunarian
+    lookAt: 02NPC019
+    text: Maybe my parents were right about how dangerous things can be for a lunarian...
+    options: []
+  - speaker: Lycan
+    lookAt: 02NPC020
+    text: Aren't you glad that I'm as cautious as I am then?
+    options: []
+  - speaker: Lunarian
+    lookAt: 02NPC019
+    text: ... I guess I am. Thanks.
+    options: []
+  nextDialogue: {fileID: 0}

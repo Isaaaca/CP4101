@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc713fd48c9bbdd41b4c72f20e126069, type: 3}
+  m_Name: 02DIA024
+  m_EditorClassIdentifier: 
+  dialogueLines:
+  - speaker: Lunarian
+    lookAt: 02NPC021
+    text: ARE YOU ALRIGHT!?
+    options: []
+  - speaker: Lunarian
+    lookAt: 02NPC022
+    text: Weren't you afraid of heights?
+    options: []
+  - speaker: Lunarian
+    lookAt: 02NPC021
+    text: Well I couldn't just stay put when I heard you were attacked! You're wounded!
+    options: []
+  - speaker: Lunarian
+    lookAt: 02NPC022
+    text: Yea I got hit a few times, but I'm still alive, thanks to the sheriff.
+    options: []
+  - speaker: Lunarian
+    lookAt: 02NPC021
+    text: I told you the pendant was dangerous!
+    options: []
+  - speaker: Lunarian
+    lookAt: 02NPC022
+    text: No way. It wasn't the pendant. The lycan was too drunk and he showed his
+      true colors.
+    options: []
+  - speaker: Lunarian
+    lookAt: 02NPC021
+    text: Look at you still talking back. If I were you I'd be scarred for life.
+    options: []
+  - speaker: Lunarian
+    lookAt: 02NPC022
+    text: Who says I'm not? I'm not sure I can trust lycans anymore.
+    options: []
+  - speaker: Lunarian
+    lookAt: 02NPC022
+    text: ...
+    options: []
+  - speaker: Lunarian
+    lookAt: 02NPC022
+    text: Sorry sheriff, I didn't mean to say you can't be trusted. I guess you are
+      different.
+    options: []
+  - speaker: Sheriff
+    lookAt: Player
+    text: Don't worry about it. You just focus on resting and recovering.
+    options: []
+  nextDialogue: {fileID: 0}
